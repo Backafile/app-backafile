@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app-backafile",
-    "slug": "app-backafile",
+    "name": "backafile",
+    "slug": "backafile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sidhardhjoe.app-backafile"
+      "bundleIdentifier": "com.mobile.backafile"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,7 +23,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.sidhardhjoe.appbackafile"
+      "package": "com.mobile.appbackafile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
