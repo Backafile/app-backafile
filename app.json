@@ -2,6 +2,7 @@
   "expo": {
     "name": "backafile",
     "slug": "backafile",
+    "scheme": "backafile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -35,9 +36,13 @@
           "photosPermission": "Allow Backafile to access your photos.",
           "savePhotosPermission": "Allow Backafile to save photos.",
           "isAccessMediaLocationEnabled": true,
-          "granularPermissions": ["audio", "photo"]
+          "granularPermissions": [
+            "audio",
+            "photo"
+          ]
         }
-      ]
+      ],
+      "expo-router"
     ]
   }
 }
